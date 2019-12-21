@@ -1,0 +1,5 @@
+@for $i from 1 through 7 {
+  .color-#{$i} {
+    background-color: map-get($rainbow, color-#{$i});
+  }
+}

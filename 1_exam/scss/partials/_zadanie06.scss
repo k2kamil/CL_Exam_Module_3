@@ -1,0 +1,12 @@
+@mixin addColor($color) {
+  background-color: $color;
+
+  &:hover {
+    background-color: lighten($color, 50%);
+  }
+}
+
+.section-2 {
+  @include addColor(#000000);
+}
+

@@ -1,0 +1,25 @@
+.section-3 {
+  img {
+    width: 100%;
+  }
+
+  @media(min-width: 768px) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    img {
+      width: 200px;
+    }
+  }
+
+  @media(min-width: 1025px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 600px;
+    }
+  }
+}
